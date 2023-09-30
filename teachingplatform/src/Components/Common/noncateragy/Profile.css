@@ -1,0 +1,24 @@
+
+
+    :root {
+        --main-color: #fffff5;
+        
+    }
+
+    .bg-main-color {
+        background-color: var(--main-color);
+    }
+
+    .text-main-color {
+        color: var(--main-color);
+    }
+
+    .border-main-color {
+        border-color: var(--main-color);
+    }
+#verticalBarChart{
+    display:block;
+     box-sizing: border-box; 
+     height: 414px;
+      width: 828px;
+}

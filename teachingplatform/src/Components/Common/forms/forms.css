@@ -1,0 +1,15 @@
+.login_img_section {
+    background: linear-gradient(rgba(2,2,2,.7),rgba(110, 88, 88, 0.7)),
+    url(https://images.unsplash.com/photo-1592066575517-58df903152f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2Nob29sJTIwYnVpbGRpbmd8ZW58MHx8MHx8fDA%3D&w=1000&q=80) center center;
+   background-repeat: no-repeat;  
+}
+
+@media (min-width: 640px) {
+
+.formLogin {
+    width: 100% ;
+
+}
+
+
+}

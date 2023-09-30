@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap');
+
+.ButtonofContent2{
+    margin-left: 10%;
+    margin-right: 10%; 
+    margin-top :  20px;
+    margin-bottom:  20px;
+    width: 170px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 5px solid rgb(180, 174, 174);
+    border-right: 10px solid rgb(180, 174, 174);
+    border-bottom: 10px solid rgb(180, 174, 174);
+    font-size: large;
+    font-family: 'Roboto Slab', serif;
+    height: 120px;
+    background-color: rgb(200, 255, 255);
+
+    
+}
+#gridheight{
+
+    min-height: 200vmin;
+}
+.grid-container{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5SqeZ6Bs4Cvsy3IQtuP6RYNfI-lNZGxnE4w&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.grid-item{
+    background-color: rgba(240, 166, 166, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    width: 90px;
+    
+}
+.ButtonImg:hover{
+    background-image: url(https://th.bing.com/th/id/R.63d45b74bf710fdaac29c8c9c64b6fe9?rik=pOb2NYQSbhXDmA&riu=http%3a%2f%2fweknowyourdreams.com%2fimages%2forange-color%2forange-color-13.jpg&ehk=%2f7%2bs%2fYt7Yr9NqBo9TB1t0FrwaBvk1adL6cNfDKmzJeA%3d&risl=&pid=ImgRaw&r=0) ; background-repeat: no-repeat;
+    background-size: contain; 
+    background-color: orangered;
+    padding-right: 0px;
+}
+.ButtonImg{
+
+    background-image: url(https://i.pinimg.com/736x/f2/35/ef/f235efeab553a151883381b99629493d.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    color: black;
+}
+@media (max-width: 750px) {
+ 
+    .grid-container{
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+        width: 100%;
+    }
+}
+@media (max-width: 350px) {
+ 
+    .grid-container{
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+        width: 100%;
+    }
+}

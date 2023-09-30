@@ -1,0 +1,13 @@
+#LinkFooter{
+  text-decoration: none;
+}
+
+.FooterBody{
+  background-image: url(https://images.alphacoders.com/117/11731.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body{
+  font-size: small;
+}
